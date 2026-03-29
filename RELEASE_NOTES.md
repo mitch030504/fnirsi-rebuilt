@@ -1,5 +1,9 @@
 # FNIRSI Rebuilt v1.0.0
 
+## Disclosure
+
+This release is vibe coded. I do not care, because it was made for my personal use first and I am sharing it because other people might still get good use out of it.
+
 ## Summary
 
 Initial published reconstruction of the legacy FNIRSI Bluetooth Android application as a modern Android Studio project.

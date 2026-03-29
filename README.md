@@ -1,5 +1,9 @@
 # FNIRSI Rebuilt
 
+## Disclosure
+
+This project is vibe coded. I do not care, because it was made for my personal use first and I am sharing it because other people might still get good use out of it.
+
 Reconstructed Android Studio project for the legacy FNIRSI Bluetooth Android app, migrated to a modern Kotlin-first codebase and updated for current Android SDK levels.
 
 This repository was rebuilt from the original APK and then incrementally repaired until it built and ran again on modern Android. It is intended for maintenance, compatibility fixes, and protocol research around supported FNIRSI USB tester devices.
