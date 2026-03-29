@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Capacity_calculation">Calcul de capacité</string>
+    <string name="Capacity_recording">NRG</string>
+    <string name="Confirm_disconnection">Confirmer pour se déconnecter?</string>
+    <string name="Electricity_record">CAP</string>
+    <string name="Equivalent_internal_resistance">impédance</string>
+    <string name="Over_voltage_and_over_current_alarm">Alarme</string>
+    <string name="Power_on_time_of_capacity_equipment" />
+    <string name="Protocol_control">déclencheur</string>
+    <string name="Stop_triggering">Arrêtez</string>
+    <string name="Time_record">TIM</string>
+    <string name="Voltage">Tension</string>
+    <string name="abc_action_bar_home_description">Revenir à l\'accueil</string>
+    <string name="abc_action_bar_up_description">Revenir en haut de la page</string>
+    <string name="abc_action_menu_overflow_description">Autres options</string>
+    <string name="abc_action_mode_done">OK</string>
+    <string name="abc_activity_chooser_view_see_all">Tout afficher</string>
+    <string name="abc_activitychooserview_choose_application">Sélectionner une application</string>
+    <string name="abc_capital_off">NON</string>
+    <string name="abc_capital_on">OUI</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">supprimer</string>
+    <string name="abc_menu_enter_shortcut_label">entrée</string>
+    <string name="abc_menu_function_shortcut_label">Fonction+</string>
+    <string name="abc_menu_meta_shortcut_label">Méta+</string>
+    <string name="abc_menu_shift_shortcut_label">Maj+</string>
+    <string name="abc_menu_space_shortcut_label">espace</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Rechercher…</string>
+    <string name="abc_searchview_description_clear">Effacer la requête</string>
+    <string name="abc_searchview_description_query">Requête de recherche</string>
+    <string name="abc_searchview_description_search">Rechercher</string>
+    <string name="abc_searchview_description_submit">Envoyer la requête</string>
+    <string name="abc_searchview_description_voice">Recherche vocale</string>
+    <string name="abc_shareactionprovider_share_with">Partager avec</string>
+    <string name="abc_shareactionprovider_share_with_application">Partager avec %s</string>
+    <string name="abc_toolbar_collapse_description">Réduire</string>
+    <string name="alert_msg">Lorsque la tension et le courant sont hors de portée, le téléphone vibre ou sonne pour vous le rappeler.</string>
+    <string name="app_name">FNIRSI</string>
+    <string name="back">retourner</string>
+    <string name="cancel">Annuler</string>
+    <string name="ccxz">dépassez la limite!</string>
+    <string name="cf">déclencheur</string>
+    <string name="cfqqz">Demande de déclenchement</string>
+    <string name="cfsfz">Demander une libération</string>
+    <string name="conn_dis">déconnexion</string>
+    <string name="connet">connexion</string>
+    <string name="csxg">modifier</string>
+    <string name="dcdy">VBATT\n(V)</string>
+    <string name="dcdy_dia">VBATT\n(V)=</string>
+    <string name="dcrl">BATT CAP\n(Ah)</string>
+    <string name="dev_tem">Température</string>
+    <string name="disconnect">déconnexion</string>
+    <string name="dj_Voltage">D+Tension</string>
+    <string name="djj_Voltage">D-Tension</string>
+    <string name="dlxz">Courant&lt;=</string>
+    <string name="dyxz">Tension&lt;=</string>
+    <string name="electric_current">Courant</string>
+    <string name="eliminate">Clair</string>
+    <string name="expurt_excel">Exportation\nexcel</string>
+    <string name="function">courir</string>
+    <string name="get_into">entrer</string>
+    <string name="help">aider</string>
+    <string name="isnull">Ne peux pas être vide</string>
+    <string name="nlah">NRG\n(Wh)</string>
+    <string name="now_state">Statut actuel:</string>
+    <string name="ok">confirmer</string>
+    <string name="okqc">Confirmer effacer Groupe Non</string>
+    <string name="power">Puissance</string>
+    <string name="rlah">CAP\n(Ah)</string>
+    <string name="rljs_hep" formatted="false">1.VBATT：3.0-5.0V\n2.EFF：80% - 100%\n</string>
+    <string name="search_menu_title">Rechercher</string>
+    <string name="select_cfdy">Sélectionnez la tension:</string>
+    <string name="select_cfxy">Protocole de sélection</string>
+    <string name="select_lan">Choix de la langue</string>
+    <string name="sousuo">Début du balayage</string>
+    <string name="start_conn">connexion</string>
+    <string name="start_up">Commencez</string>
+    <string name="state_getstate">Obtenir le statut</string>
+    <string name="state_kx">tourner au ralenti</string>
+    <string name="state_runing">En cours d exécution</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stop_it">Arrêtez</string>
+    <string name="stopsousuo">Arrêt du balayage</string>
+    <string name="tips">rappeler</string>
+    <string name="triggering">déclencheur</string>
+    <string name="tzcf">Arrêtez</string>
+    <string name="wqdti">S il vous plaît, démarrez d abord!</string>
+    <string name="xl">EFF\n(%)</string>
+    <string name="xl_dia">EFF(%)=</string>
+    <string name="xlsw">La cloche</string>
+    <string name="xylz_hep">1.Lorsque certains chargeurs commutent certains protocoles, ils redémarrent d eux-mêmes, ce qui rendra le déclencheur invalide et la déconnexion Bluetooth.\n2.Certains chargeurs ne prennent pas en charge la tension déclenchée et ne parviendront pas à se déclencher. Ou si le déclenchement réussit, la tension n atteindra pas la valeur définie.</string>
+    <string name="zdcdy">total：VBATT(V)=</string>
+    <string name="zdcdyti">VBATT: 3.0-5.0 (V)</string>
+    <string name="zdsw">trembler</string>
+    <string name="zxl">EFF(%)=</string>
+    <string name="zxlti">EFF: 80-100(%)</string>
+</resources>

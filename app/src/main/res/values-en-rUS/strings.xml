@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Capacity_calculation">Battery CAP</string>
+    <string name="Capacity_recording">NRG</string>
+    <string name="Confirm_disconnection">Confirm to disconnect?</string>
+    <string name="Electricity_record">CAP</string>
+    <string name="Equivalent_internal_resistance">Impd</string>
+    <string name="Over_voltage_and_over_current_alarm">Alarm</string>
+    <string name="Power_on_time_of_capacity_equipment" />
+    <string name="Protocol_control">Trriger</string>
+    <string name="Stop_triggering">Stop trigger</string>
+    <string name="Time_record">TIM</string>
+    <string name="Voltage">Voltage</string>
+    <string name="alert_msg">When the voltage and current are out of range, the mobile phone vibrates or rings to remind.</string>
+    <string name="app_name">FNIRSI</string>
+    <string name="back">Return</string>
+    <string name="cancel">Cancel</string>
+    <string name="ccxz">das Limit überschreiten!</string>
+    <string name="cf">Trig</string>
+    <string name="cfqqz">Triggering request</string>
+    <string name="cfsfz">Release request</string>
+    <string name="conn_dis">DISCONNECT</string>
+    <string name="connet">Connect</string>
+    <string name="csxg">Modify</string>
+    <string name="dcdy">VBATT\n(V)</string>
+    <string name="dcdy_dia">VBATT\n(V)=</string>
+    <string name="dcrl">BATT CAP\n(Ah)</string>
+    <string name="dev_tem">Dev TEMP</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="dj_Voltage">D+ Vol</string>
+    <string name="djj_Voltage">D- Vol</string>
+    <string name="dlxz">Cur&lt;=</string>
+    <string name="dyxz">Vol&lt;=</string>
+    <string name="electric_current">Current</string>
+    <string name="eliminate">Clear</string>
+    <string name="expurt_excel">Export\nexcel</string>
+    <string name="function">Run</string>
+    <string name="get_into">Enter</string>
+    <string name="help">Help</string>
+    <string name="isnull">Cannot be null</string>
+    <string name="nlah">NRG\n(Wh)</string>
+    <string name="now_state">Current status:</string>
+    <string name="ok">Confirm</string>
+    <string name="okqc">Confirm Clear Group</string>
+    <string name="power">Power</string>
+    <string name="rlah">CAP\n(Ah)</string>
+    <string name="rljs_hep" formatted="false">1.VBATT：3.0-5.0V\n2.EFF：80% - 100%\n3.When (Total: battery voltage or efficiency) is selected, the input parameters selected in each row above are invalid.</string>
+    <string name="select_cfdy">Select the trigger voltage:</string>
+    <string name="select_cfxy">Select trigger protocol</string>
+    <string name="select_lan">Language</string>
+    <string name="sousuo">Start search</string>
+    <string name="start_conn">CONNECT</string>
+    <string name="start_up">RUN</string>
+    <string name="state_getstate">Get status</string>
+    <string name="state_kx">Idle</string>
+    <string name="state_runing">Running</string>
+    <string name="stop_it">STOP</string>
+    <string name="stopsousuo">Stop search</string>
+    <string name="tips">Prompt</string>
+    <string name="triggering">Trig</string>
+    <string name="tzcf">Stop Trigger</string>
+    <string name="wqdti">Please start！</string>
+    <string name="xl">EFF\n(%)</string>
+    <string name="xl_dia">EFF(%)=</string>
+    <string name="xlsw">Bell switch</string>
+    <string name="xylz_hep">1.When some chargers switch certain protocols, they restart by themselves, which will cause the trigger to be invalid and Bluetooth disconnection.\n2.Some chargers do not support the triggered voltage and will fail to trigger, or trigger successfully, but the voltage will not reach the set value.</string>
+    <string name="zdcdy">Total：VBATT(V)=</string>
+    <string name="zdcdyti">VBATT: 3.0-5.0 (V)</string>
+    <string name="zdsw">Vibration switch</string>
+    <string name="zxl">EFF(%)=</string>
+    <string name="zxlti">EFF: 80-100(%)</string>
+</resources>

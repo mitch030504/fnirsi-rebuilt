@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Capacity_calculation">容量计算</string>
+    <string name="Capacity_recording">NRG</string>
+    <string name="Confirm_disconnection">确认断开连接？</string>
+    <string name="Electricity_record">CAP</string>
+    <string name="Equivalent_internal_resistance">阻抗</string>
+    <string name="Over_voltage_and_over_current_alarm">过压过流警报</string>
+    <string name="Power_on_time_of_capacity_equipment" />
+    <string name="Protocol_control">协议控制</string>
+    <string name="Stop_triggering">停止触发</string>
+    <string name="Time_record">TIM</string>
+    <string name="Voltage">电压</string>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="alert_msg">当电压、电流超出范围时，手机震动或响铃提醒</string>
+    <string name="app_name">FNIRSI</string>
+    <string name="back">返回</string>
+    <string name="brvah_load_complete">点击加载更多</string>
+    <string name="brvah_load_end">没有更多数据</string>
+    <string name="brvah_load_failed">加载失败，请点我重试</string>
+    <string name="brvah_loading">正在加载中...</string>
+    <string name="cancel">取消</string>
+    <string name="ccxz">超出限制!</string>
+    <string name="cf">触发</string>
+    <string name="cfqqz">触发请求中</string>
+    <string name="cfsfz">释放请求中</string>
+    <string name="conn_dis">连接断开</string>
+    <string name="connet">连接</string>
+    <string name="csxg">参数修改</string>
+    <string name="dcdy">VBATT\n(V)</string>
+    <string name="dcdy_dia">VBATT\n(V)=</string>
+    <string name="dcrl">BATT CAP\n(Ah)</string>
+    <string name="dev_tem">温度</string>
+    <string name="disconnect">断开</string>
+    <string name="dj_Voltage">D+电压</string>
+    <string name="djj_Voltage">D-电压</string>
+    <string name="dlxz">电流&lt;=</string>
+    <string name="dyxz">电压&lt;=</string>
+    <string name="electric_current">电流</string>
+    <string name="eliminate">清除</string>
+    <string name="expurt_excel">导出\nexcel</string>
+    <string name="function">运行</string>
+    <string name="get_into">进入</string>
+    <string name="help">帮助</string>
+    <string name="isnull">不能为空值</string>
+    <string name="nlah">NRG\n(Wh)</string>
+    <string name="now_state">当前状态：</string>
+    <string name="ok">确定</string>
+    <string name="okqc">确认清除 组号</string>
+    <string name="power">功率</string>
+    <string name="rlah">CAP\n(Ah)</string>
+    <string name="rljs_hep" formatted="false">1.电池电压范围：3.0-5.0V\n2.效率范围：80% - 100%\n3.当选中 （总：电池电压或效率） 时，上面每行所选中的输入参数无效</string>
+    <string name="search_menu_title">Search</string>
+    <string name="select_cfdy">选择触发电压：</string>
+    <string name="select_cfxy">选择触发协议</string>
+    <string name="select_lan">选择语言</string>
+    <string name="sousuo">开始搜索</string>
+    <string name="start_conn">开始连接</string>
+    <string name="start_up">启动</string>
+    <string name="state_getstate">获取状态</string>
+    <string name="state_kx">空闲</string>
+    <string name="state_runing">运行中</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stop_it">停止</string>
+    <string name="stopsousuo">停止搜索</string>
+    <string name="tips">提示</string>
+    <string name="triggering">触发</string>
+    <string name="tzcf">停止触发</string>
+    <string name="wqdti">请先启动！</string>
+    <string name="xl">EFF\n(%)</string>
+    <string name="xl_dia">EFF(%)=</string>
+    <string name="xlsw">响铃开关</string>
+    <string name="xylz_hep">1.部分充电器切换某些协议时，自身重启，将导致触发无效，蓝牙断开;\n2.部分充电器不支持所触发电压，将触发失败，或触发成功，电压却达不到设定值。</string>
+    <string name="zdcdy">总：VBATT(V)=</string>
+    <string name="zdcdyti">VBATT: 3.0-5.0 (V)</string>
+    <string name="zdsw">震动开关</string>
+    <string name="zxl">EFF(%)=</string>
+    <string name="zxlti">EFF: 80-100(%)</string>
+</resources>
