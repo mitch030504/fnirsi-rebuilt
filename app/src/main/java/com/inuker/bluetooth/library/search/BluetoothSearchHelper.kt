@@ -32,7 +32,7 @@ class BluetoothSearchHelper private constructor() : IBluetoothSearchHelper, Prox
         currentRequest = null
     }
 
-    override fun onIntercept(obj: Any?, method: Method, objArr: Array<out Any?>?): Boolean {
+    override fun onIntercept(obj: Any?, method: Method, objArr: Array<Any?>?): Boolean {
         handler.obtainMessage(0, ProxyBulk(obj, method, objArr)).sendToTarget()
         return true
     }
