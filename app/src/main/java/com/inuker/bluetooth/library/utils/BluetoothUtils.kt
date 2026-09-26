@@ -10,6 +10,7 @@ import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
 import android.os.Build
+import androidx.core.content.ContextCompat
 import android.os.Handler
 import android.os.Looper
 import com.inuker.bluetooth.library.BluetoothContext
@@ -40,13 +41,12 @@ object BluetoothUtils {
     }
 
     private fun registerGlobalReceiver(broadcastReceiver: BroadcastReceiver, intentFilter: IntentFilter) {
-        val context = getContext()
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
-            context.registerReceiver(broadcastReceiver, intentFilter, Context.RECEIVER_NOT_EXPORTED)
-        } else {
-            @Suppress("DEPRECATION")
-            context.registerReceiver(broadcastReceiver, intentFilter)
-        }
+        ContextCompat.registerReceiver(
+            getContext(),
+            broadcastReceiver,
+            intentFilter,
+            ContextCompat.RECEIVER_NOT_EXPORTED,
+        )
     }
 
     @JvmStatic
