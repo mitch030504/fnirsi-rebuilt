@@ -83,7 +83,11 @@ abstract class BaseActivity : AppCompatActivity() {
             LanguageUtil.changeAppLanguage(App.getContext(), language)
         }
         SpUtil.getInstance(this).putString(SpUtil.LANGUAGE, language)
-        startActivity(Intent(this, activity::class.java).apply { flags = 268468224 })
+        startActivity(
+            Intent(this, activity::class.java).apply {
+                flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+            },
+        )
         finish()
     }
 
