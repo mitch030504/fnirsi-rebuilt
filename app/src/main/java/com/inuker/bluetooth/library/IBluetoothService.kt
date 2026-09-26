@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.os.IBinder
 import android.os.IInterface
 import android.os.Parcel
+import android.os.Parcelable
 import android.os.RemoteException
 
 interface IBluetoothService : IInterface {
@@ -36,7 +37,7 @@ interface IBluetoothService : IInterface {
             reply?.writeNoException()
             if (bundle != null) {
                 reply?.writeInt(1)
-                bundle.writeToParcel(requireNotNull(reply), 1)
+                bundle.writeToParcel(requireNotNull(reply), Parcelable.PARCELABLE_WRITE_RETURN_VALUE)
             } else {
                 reply?.writeInt(0)
             }
