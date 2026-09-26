@@ -9,7 +9,9 @@
     <uses-permission
         android:name="android.permission.ACCESS_COARSE_LOCATION"
         android:maxSdkVersion="30"/>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        android:maxSdkVersion="30"/>
     <uses-permission android:name="android.permission.BLUETOOTH_SCAN"/>
     <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
     <uses-permission
@@ -27,8 +29,7 @@
         android:name="com.uct.App"
         android:allowBackup="true"
         android:supportsRtl="true"
-        android:roundIcon="@mipmap/ic_logo"
-        android:appComponentFactory="androidx.core.app.CoreComponentFactory">
+        android:roundIcon="@mipmap/ic_logo">
         <activity
             android:name="com.uct.MainActivity"
             android:exported="true"
