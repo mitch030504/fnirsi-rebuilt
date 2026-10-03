@@ -7,6 +7,7 @@ import android.os.Build
 import android.os.LocaleList
 import android.text.TextUtils
 import android.util.Log
+import androidx.annotation.RequiresApi
 import java.util.Locale
 
 object LanguageUtil {
@@ -59,6 +60,7 @@ object LanguageUtil {
         }
     }
 
+    @RequiresApi(Build.VERSION_CODES.N)
     private fun updateResources(context: Context, language: String?): Context {
         val resources = context.resources
         val locale = getLocaleByLanguage(language)

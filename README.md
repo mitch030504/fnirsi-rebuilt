@@ -14,7 +14,7 @@ This repository was rebuilt from the original APK and then incrementally repaire
 - App targets Android SDK 36
 - BLE scan, connect, and live data paths are restored
 - Main app-layer code under `com.uct` has been migrated to Kotlin
-- Large parts of the bundled BLE stack have also been migrated to Kotlin
+- Checked-in source under `app/src/main/java` is now fully Kotlin; leftover decompiled Java scaffolding was removed or migrated
 - Release asset in GitHub Releases is currently a debug-signed APK for easy installation/testing
 
 ## Supported Functionality
@@ -37,7 +37,6 @@ This repository was rebuilt from the original APK and then incrementally repaire
 
 ## Remaining Work
 
-- Finish the remaining Java-to-Kotlin migration in the leftover scaffolding/library code
 - Do broader on-device parity testing across more FNIRSI models and edge cases
 - Add regression coverage around the BLE/session layer before deeper refactors
 - Replace debug-signing in releases with a proper release-signing setup if you plan to redistribute binaries

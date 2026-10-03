@@ -4,7 +4,6 @@ package com.uct
 
 import android.content.Context
 import android.graphics.Color
-import androidx.core.internal.view.SupportMenu
 import com.github.mikephil.charting.charts.LineChart
 import com.github.mikephil.charting.components.AxisBase
 import com.github.mikephil.charting.components.Description
@@ -62,7 +61,7 @@ fun renderChart(
 
     val currentDataSet =
         LineDataSet(currentEntries, "次数").apply {
-            highLightColor = SupportMenu.CATEGORY_MASK
+            highLightColor = Color.RED
             setDrawCircles(false)
             setDrawHighlightIndicators(true)
             isHighlightEnabled = true
@@ -73,7 +72,7 @@ fun renderChart(
         }
     val voltageDataSet =
         LineDataSet(voltageEntries, "次数").apply {
-            highLightColor = SupportMenu.CATEGORY_MASK
+            highLightColor = Color.RED
             setDrawCircles(false)
             setDrawHighlightIndicators(true)
             isHighlightEnabled = true

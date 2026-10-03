@@ -2,6 +2,7 @@ package com.uct.weight
 
 import android.content.Context
 import android.graphics.Canvas
+import android.graphics.Color
 import android.graphics.Paint
 import android.graphics.Path
 import android.graphics.RectF
@@ -9,7 +10,6 @@ import android.os.Build
 import android.util.AttributeSet
 import android.view.View
 import android.view.ViewGroup
-import androidx.core.internal.view.SupportMenu
 import com.officialwebsite.R
 import kotlin.math.max
 
@@ -36,7 +36,7 @@ class ShadowContainer @JvmOverloads constructor(
         shadowColor =
             typedArray.getColor(
                 R.styleable.ShadowContainer_containerShadowColor,
-                SupportMenu.CATEGORY_MASK,
+                Color.RED,
             )
         shadowRadius = typedArray.getDimension(R.styleable.ShadowContainer_containerShadowRadius, 0.0f)
         deltaLength = typedArray.getDimension(R.styleable.ShadowContainer_containerDeltaLength, 0.0f)

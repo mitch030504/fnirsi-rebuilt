@@ -169,7 +169,7 @@ class BluetoothClient(context: Context) : IBluetoothClient {
     }
 
     @Suppress("UNCHECKED_CAST")
-    private fun <T> uiProxy(value: T): T = ProxyUtils.getUIProxy(value) as T
+    private fun <T : Any> uiProxy(value: T): T = ProxyUtils.getUIProxy(value) as T
 
-    private fun <T> uiProxyOrNull(value: T?): T? = value?.let(::uiProxy)
+    private fun <T : Any> uiProxyOrNull(value: T?): T? = value?.let(::uiProxy)
 }
